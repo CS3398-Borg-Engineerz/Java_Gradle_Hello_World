@@ -28,7 +28,7 @@ before_deploy:
 deploy:
   provider: releases
   api_key:
-    secure: $GITPERM
+    secure: $GITPERM1
   file: 
     - README.md
     - hello_world_test_reports.tar.gz 
