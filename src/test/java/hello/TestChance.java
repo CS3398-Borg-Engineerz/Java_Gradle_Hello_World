@@ -13,7 +13,7 @@ public class TestGreeter {
 
    @Test
    @DisplayName("Test for Empty Name")
-   public void testGreeterEmpty() 
+   public void testChanceEmpty() 
 
    {
       assertEquals(g.getName(),"");
@@ -24,7 +24,7 @@ public class TestGreeter {
 
    @Test
    @DisplayName("Test for Name='World'")
-   public void testGreeter() 
+   public void testChanceWorld() 
    {
 
       g.setName("World");
@@ -34,7 +34,7 @@ public class TestGreeter {
 
    @Test
    @DisplayName("Test for Name='Chance'")
-   public void testGreeter() 
+   public void testChance() 
    {
 
       g.setName("Chance");
